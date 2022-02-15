@@ -1,0 +1,128 @@
+/* navigation styles */
+
+@import "list.css";
+
+/* list styles comment out later */
+.list-style-none{
+    list-style-type: none;
+}
+
+.list-inline{
+    display:inline;
+}
+
+/* button styles */
+.btn{
+    font-size:1.2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    /* border-radius: 2px; */
+    margin: 0.6rem;
+}
+
+.btn-primary{
+    background-color:var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+}
+
+.btn-secondary{
+    background-color: var(--white-color);
+    color: var(--black-color); 
+    border-radius: 5px;
+}
+
+/* navigation styles */
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: var(--primary-color);
+    height:8vh;
+    /* change this height for mobile using media queries */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links{
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.nav-items, .nav-logo{
+    text-decoration: none;
+    color:var(--accent-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav-logo{
+    font-size: 1.4rem;
+}
+
+.nav-items:hover{
+    color:var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+}
+
+
+
+
+/* STYLES.CSS */
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid red; */
+}
+
+:root{
+    --primary-color:#c8b2c8;
+    --accent-color:purple;
+    --white-color:#fff;
+    --black-color:#2b2b2b;
+
+
+}
+
+/* .main-container{
+    background: url('lilac background.jpg');
+} */
+
+/* html,body{
+    height: 92vh;
+} */
+
+.main-container{
+    margin-top: 8vh;
+    color: var(--black-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 92vh;
+    gap: 2rem;
+    /* border: 2px solid pink; */
+}
+
+.main-image{
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.main-heading{
+    margin:1rem;
+}
+
+.section-one,.section-two{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid pink; */
+    
+}
