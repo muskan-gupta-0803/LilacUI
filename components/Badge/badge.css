@@ -1,0 +1,38 @@
+@import '/components/Avatar/avatar.css';
+@import "/styles.css";
+@import "/docs.css";
+
+/* badge with number */
+.icon-span{
+    position: relative;
+    margin:0.4rem;
+    padding:11px ;
+    /* font-size: 1rem; */
+}
+
+/* .badge-icon{
+    font-size: 2rem;
+} */
+
+.num-badge{
+    position:absolute;
+    background-color: var(--accent-color);
+    border:2px solid var(--white-color);
+    font-size: 0.5rem;
+    /* font-family: sans-serif; */
+    padding:2px 4px;
+    color:var(--white-color);
+    top:0px;
+    right:0px;
+    border-radius:999px ;
+}
+
+.badge-down{
+    bottom:0px;
+    right: 0px;
+    top:auto;
+    border-radius: 100px;
+    /* padding:0.2rem auto; */
+}
+
+

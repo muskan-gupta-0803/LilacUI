@@ -8,7 +8,7 @@
 .main{
     position: relative;
     margin-left: 20rem;
-    margin-right: 18rem;
+    margin-right: 20rem;
     
 }
 
@@ -81,5 +81,15 @@
 .para-heading{
     color: var(--accent-color);
     margin-bottom: 1rem;
+}
+
+.comp-container{
+    border: 2px solid var(--primary-color);
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+    /* margin-left: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 

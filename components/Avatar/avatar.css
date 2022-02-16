@@ -1,0 +1,89 @@
+@import "/styles.css";
+@import "/docs.css";
+
+.avatar{
+    margin:0.5rem;
+    position:relative;
+    display:inline;
+    height:3rem;
+    width:3rem;
+    border-radius: 50%;
+}
+
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.img-square{
+    border-radius:10%;
+}
+
+.avatar-xs{
+    height:1rem;
+    width:1rem;
+}
+
+.avatar-sm{
+    height:2rem;
+    width:2rem;
+}
+
+.avatar-md{
+    height:3rem;
+    width:3rem;
+}
+
+.avatar-lg{
+    height:4rem;
+    width:4rem;
+}
+
+.avatar-xl{
+    height:5rem;
+    width:5rem;    
+}
+
+.avatar-text-bg{
+    background-color: #c8a2c2;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.badge-active{
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    background-color: green;
+    border:2px solid white;
+    padding:10%;
+    border-radius: 50%;
+}
+
+.badge-inactive{
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    background-color: grey;
+    border:2px solid white;
+    padding:10%;
+    border-radius: 50%;
+}
+
+.badge-dnd{
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    background-color: red;
+    border:2px solid white;
+    padding:10%;
+    border-radius: 50%;
+}
+
+.badge-up{
+    position: absolute;
+    top:-2.5px !important;
+    right:-2.5px !important;
+    bottom:auto;
+}

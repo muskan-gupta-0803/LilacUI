@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="badge.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo -->
+            <a  class="logo" href="/"><div class="nav-logo">
+                LILAC UI
+            </div>
+            </a>
+    
+            <!-- nav links -->
+            <div class="nav-links">
+                <a href="docs.html" class="nav-items"><span>Docs</span></a>
+                <a href="https://github.com/muskan-gupta-0803/LilacUI" class="nav-items"><span>Github</span></a>
+                <a href="#" class="nav-items"><span>
+                    <i class="fas fa-sun"></i>
+                </span></a>
+                <a href="#" class="nav-items"><span>Item 4</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main container -->
+
+    <div class="doc-container">
+    <!-- every page same menu -->
+        <aside class="menu-all">
+            <ul class="doc-list ma-list">
+                <h5 class="ma-heading">Get Started</h5>
+                <li class="ma-item"><a class="ma-link" href="docs.html">Introduction </a></li>
+                <li class="ma-item"><a class="ma-link" href="">Utilities </a></li>
+                <h5 class="ma-heading">Components</h5>
+                <li class="ma-item"><a class="ma-link" href="">List item </a></li>
+                <li class="ma-item"><a class="ma-link" href="avatar.html">Avatar </a></li>
+                <li class="ma-item"><a class="ma-link" href="">List item </a></li>
+                <li class="ma-item"><a class="ma-link" href="">List item </a></li>
+                <li class="ma-item"><a class="ma-link" href="">List item </a></li>
+                <li class="ma-item"><a class="ma-link" href="">List item </a></li>
+            </ul>
+        </aside>
+
+
+    <!-- main body area -->
+        <main class="main">
+            <section class="intro">
+                <h1 class="para-heading">BADGE</h1>
+                <p class="doc-para">
+                    The badge component is a small circle like structure on an icon or avatar.
+                    It can be a numbered badge or without number count.
+                </p>
+
+                <!-- NUMBERED BADGE ON ICONS -->
+                <h2 class="para-heading" id="std-badge">Badge on Icons</h2>
+                <p class="doc-para">
+                    By default, the badges on icons are meant to appaear at the top.
+                </p>
+                
+                <div class="comp-container">
+                    <span class="icon-span">
+                        <div class="num-badge">8</div>
+                        <i class="fas fa-home"></i>  
+                    </span>
+                
+                    <span class="icon-span">
+                        <div class="num-badge">10</div>
+                        <i class="fas fa-shopping-cart"></i>        
+                    </span>
+                
+                    <span class="icon-span">
+                        <div class="num-badge">99+</div>
+                        <i class="fas fa-envelope"></i>        
+                    </span>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522icon-span%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522icon-span%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2522%253E10%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522icon-span%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fspan%253E"
+                style="width: 100%; height: 431px; border:0; transform: scale(1); overflow:hidden; margin-bottom:3rem; margin-top: 1rem ;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- BADGE AT ICONS BOTTOM -->
+                <h2 class="para-heading" id="bottom-badge">Badge at Icon's bottom</h2>
+                <p class="doc-para">
+                    To bring the badge at the bottom of icon , add another class "badge-down" to the div element.
+                </p>
+                
+                <div class="comp-container">
+                    <span class="icon-span">
+                        <div class="num-badge badge-down">8</div>
+                        <i class="fas fa-home"></i>  
+                    </span>
+                
+                    <span class="icon-span">
+                        <div class="num-badge badge-down">10</div>
+                        <i class="fas fa-shopping-cart"></i>        
+                    </span>
+                
+                    <span class="icon-span">
+                        <div class="num-badge badge-down">99+</div>
+                        <i class="fas fa-envelope"></i>        
+                    </span>
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522icon-span%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2520badge-down%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%2520%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522icon-span%2520badge-down%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2522%253E10%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522icon-span%2520badge-down%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522num-badge%2522%253E99%252B%253C%252Fdiv%253E%250A%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fspan%253E"
+                    style="width: 522px; height: 431px; border:0; transform: scale(1); overflow:hidden; margin-bottom:3rem; margin-top: 1rem ;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+
+
+            </section>
+
+        </main>
+
+        <!-- on page menu -->
+        <aside class="menu-page">
+            
+            <ul class="doc-list mp-list">
+                <h5 class="mp-heading">On this page</h5>
+                <li class="mp-item"><a class="mp-link" href="#std-badge">Badge on Icons</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#bottom-badge">Badge at the bottom</a> </li>
+                
+                
+            </ul>
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
