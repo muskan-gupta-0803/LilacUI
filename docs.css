@@ -1,0 +1,85 @@
+@import "styles.css";
+
+/* .main-div{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+} */
+
+.main{
+    position: relative;
+    margin-left: 20rem;
+    margin-right: 18rem;
+    
+}
+
+
+.doc-container{
+    margin-top: 12vh;
+    color: var(--black-color);
+    
+    display: flex;
+    
+    gap: 2rem;
+    /* border: 2px solid salmon; */
+}
+
+.doc-list{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.mp-heading,.mp-list{
+    font-size: 1.2rem;
+}
+
+.ma-link,.mp-link{
+    text-decoration: none;
+    color: var(--black-color);
+    /* margin-top: 2rem; */
+}
+
+.ma-link:hover, .mp-link:hover{
+    color:var(--primary-color);
+}
+
+.ma-item{
+    margin-top: 0.5rem;
+}
+
+.ma-heading,.mp-heading{
+    color: var(--accent-color);
+    margin-top: 00.5rem;
+}
+
+.menu-all{
+    position: fixed;
+    left:1rem;
+    padding-right: 4rem;
+    border-right: 2px solid var(--primary-color);
+    
+}
+
+.menu-page{
+    position: fixed;
+    right:1rem;
+    padding-right: 3rem;
+    
+}
+
+.mp-list{
+    border-left: 2px solid var(--primary-color);
+}
+
+
+/* documentation area */
+
+.doc-para{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.para-heading{
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
