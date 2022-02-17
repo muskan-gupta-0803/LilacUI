@@ -50,34 +50,25 @@
     justify-content: center;  
 }
 
-.badge-active{
+.badge{
     position:absolute;
     bottom:2px;
     right:2px;
-    background-color: green;
     border:2px solid white;
     padding:10%;
     border-radius: 50%;
+}
+
+.badge-active{
+    background-color: green;
 }
 
 .badge-inactive{
-    position:absolute;
-    bottom:2px;
-    right:2px;
     background-color: grey;
-    border:2px solid white;
-    padding:10%;
-    border-radius: 50%;
 }
 
 .badge-dnd{
-    position:absolute;
-    bottom:2px;
-    right:2px;
     background-color: red;
-    border:2px solid white;
-    padding:10%;
-    border-radius: 50%;
 }
 
 .badge-up{
