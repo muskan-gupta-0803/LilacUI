@@ -16,9 +16,7 @@
 .doc-container{
     margin-top: 12vh;
     color: var(--black-color);
-    
     display: flex;
-    
     gap: 2rem;
 }
 
@@ -88,5 +86,9 @@
     margin:1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.col-container{
+    flex-direction: column;
 }
 
