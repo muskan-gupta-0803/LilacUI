@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo -->
+            <a class="logo" href="index.html">
+                <span class="nav-logo">
+                    LILAC UI
+                </span>
+            </a>
+    
+            <!-- nav links -->
+            <div class="nav-links">
+                <a href="docs.html" class="nav-items"><span>Docs</span></a>
+                <a href="https://github.com/muskan-gupta-0803/LilacUI" class="nav-items"><span>Github</span></a>
+                <a href="#" class="nav-items"><span>
+                    <i class="fas fa-sun"></i>
+                </span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="doc-container">
+    <!-- every page same menu -->
+        <aside class="menu-all">
+            <ul class="doc-list ma-list">
+                <h5 class="ma-heading">Get Started</h5>
+                <li class="ma-item"><a class="ma-link" href="docs.html">Introduction </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Utilities/utilities.html">Utilities </a></li>
+                <h5 class="ma-heading">Components</h5>
+                <li class="ma-item"><a class="ma-link" href="components/Alert/alert.html">Alert </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Avatar/avatar.html">Avatar </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Badge/badge.html">Badge </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Button/button.html">Button </a></li>
+                <li class="ma-item"><a class="ma-link" href="card.html">Card </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Image/image.html">Image </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Input/input.html">Input </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/List/list.html">List </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Navigation/navigation.html">Navigation </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Modal/modal.html">Modal </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Rating/rating.html">Rating </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Toast/toast.html">Toast </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Grid/grid.html">Simplified Grid </a></li>
+            </ul>
+        </aside>
+
+
+    <!-- main body area -->
+        <main class="main">
+            <section class="intro">
+                <h1 class="para-heading" >Card</h1>
+                <p class="doc-para">
+                    Cards are used to display some information about a product or item.
+
+                </p>              
+
+                <!-- CARD WITH BADGE -->
+                <h1 class="para-heading" id="card-with-badge">Card with Badge</h1>
+                <p class="doc-para">
+                    A badge on a card is used to show the present status of the card.
+                    Use the following code to make such card.
+                </p>
+                <div class="comp-container container-bg">
+                    <div class="card br-md">
+                        <img class="card-img br-md" src="https://picsum.photos/250/150" alt=""/>
+                        <div class="card-badge">ON SALE</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <small class="card-subtitle">secondary text</small>
+                            <p class="card-description">Lorem ipsum, dolor sit 	amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520br-md%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520br-md%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F150%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EON%2520SALE%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520%2509amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- CARD WITH DISMISS -->
+                <h1 class="para-heading" id="card-with-dismiss">Card with Dismiss</h1>
+                <p class="doc-para">
+                    A dismissable card contains a close or cross sign at the to which can be used to close or dismiss the card.
+                </p>
+                <div class="comp-container container-bg">
+                    <div class="card br-md">
+                        <img class="card-img br-md" src="https://picsum.photos/250/150" alt=""/>
+                        <span class="close-icon"><i class="fas fa-times"></i></span>
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <small class="card-subtitle">secondary text</small>
+                            <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520br-md%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520br-md%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F150%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522close-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- CARD WITH TEXT OVERLAY-->
+                <h1 class="para-heading" id="card-with-overlay">Card with Text Overlay</h1>
+                <p class="doc-para">
+                    Card with text overlay has a text message over the display image of the card.
+                </p>
+                <div class="comp-container container-bg">
+                    <div class="card br-md">
+                        <img class="card-img br-md" src="https://picsum.photos/250/150" alt=""/>
+                        <span class="overlay-text br-md">OUT OF STOCK</span>
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <small class="card-subtitle">secondary text</small>
+                            <p class="card-description">Lorem ipsum, dolor sit 	amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520br-md%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520br-md%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F150%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522overlay-text%2520br-md%2522%253EOUT%2520OF%2520STOCK%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520%2509amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- TEXT ONLY CARD-->
+                <h1 class="para-heading" id="text-only-card">Text-Only Card</h1>
+                <p class="doc-para">
+                    Text-only cards contains only texual information and no images.
+                </p>
+                <div class="comp-container container-bg">
+                    <div class="card text-card br-md">
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <small class="card-subtitle">secondary text</small>
+                            <p class="card-description">Lorem ipsum, dolor sit 				amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2520br-md%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- HORIZONTAL CARD-->
+                <h1 class="para-heading" id="h-card">Horizontal Card</h1>
+                <p class="doc-para">
+                    Horizontal card components contain main content layed out in a horizontal direction.
+                </p>
+                <div class="comp-container container-bg">
+                    <div class="card-horizontal br-md">
+                        <img class="card-img br-md" src="https://picsum.photos/250/150" alt=""/>
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <small class="card-subtitle">secondary text</small>
+                            <p class="card-description">Lorem ipsum, dolor sit 				amet consectetur adipisicing elit. </p>
+                            <button class="btn btn-primary">Add to cart</button>
+                        </div>
+                    </div>                
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520br-md%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2520br-md%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F150%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+              <!--  CARD WITH SHADOW-->
+              <h1 class="para-heading" id="s-card">Card With Shadow</h1>
+              <p class="doc-para">
+                  Card with shadow can be any type of card which has a background shadow. Just add class "card-shadow" to any card that you want to add a shadow on.
+              </p>
+              <div class="comp-container container-bg">
+                <div class="card text-card br-md card-shadow">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <small class="card-subtitle">secondary text</small>
+                        <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2520br-md%2520card-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Lorem%2520ipsum%252C%250A%2520%2520%2520%2520%2520%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%250A%2520%2520%2520%2520%2520%2520elit.Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 306px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe> 
+
+            </section>
+        </main>
+
+        <!-- on page menu -->
+        <aside class="menu-page">            
+            <ul class="doc-list mp-list">
+                <h5 class="mp-heading">On this page</h5>
+                <li class="mp-item"><a class="mp-link" href="#card-with-badge">Card with Badge</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#card-with-dismiss">Card with Dismiss</a> </li> 
+                <li class="mp-item"><a class="mp-link" href="#card-with-overlay">Card with Text Overlay</a> </li> 
+                <li class="mp-item"><a class="mp-link" href="#text-only-card">Text-only Card</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#h-card">Horizontal Card</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#s-card">Card with shadow</a> </li>  
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <!-- To be added -->
+    </footer>
+</body>
+</html>
