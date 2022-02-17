@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="button.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo -->
+            <a class="logo" href="index.html">
+                <span class="nav-logo">
+                    LILAC UI
+                </span>
+            </a>
+    
+            <!-- nav links -->
+            <div class="nav-links">
+                <a href="docs.html" class="nav-items"><span>Docs</span></a>
+                <a href="https://github.com/muskan-gupta-0803/LilacUI" class="nav-items"><span>Github</span></a>
+                <a href="#" class="nav-items"><span>
+                    <i class="fas fa-sun"></i>
+                </span></a>
+                <!-- <a href="#" class="nav-items"><span>Item 4</span></a> -->
+            </div>
+        </nav>
+    </header>
+
+    <div class="doc-container">
+    <!-- every page same menu -->
+        <aside class="menu-all">
+            <ul class="doc-list ma-list">
+                <h5 class="ma-heading">Get Started</h5>
+                <li class="ma-item"><a class="ma-link" href="docs.html">Introduction </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Utilities/utilities.html">Utilities </a></li>
+                <h5 class="ma-heading">Components</h5>
+                <li class="ma-item"><a class="ma-link" href="alert.html">Alert </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Avatar/avatar.html">Avatar </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Badge/badge.html">Badge </a></li>
+                <li class="ma-item"><a class="ma-link" href="button.html">Button </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Card/card.html">Card </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Image/image.html">Image </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Input/input.html">Input </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/List/list.html">List </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Navigation/navigation.html">Navigation </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Modal/modal.html">Modal </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Rating/rating.html">Rating </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Toast/toast.html">Toast </a></li>
+                <li class="ma-item"><a class="ma-link" href="components/Grid/grid.html">Simplified Grid </a></li>
+            </ul>
+        </aside>
+
+
+    <!-- main body area -->
+        <main class="main">
+            <section class="intro">
+                <h1 class="para-heading">Button</h1>
+                <p class="doc-para">
+                    Button component mainly has these types: primary, secondary, link, button with icon and float button.
+                </p>
+                
+                
+
+                <!-- PRIMARY BUTTON -->
+                <h2 class="para-heading" id="p-btn">Primary Button</h2>
+                <p class="doc-para">
+                    Primary button is the main button design in project.
+
+                </p>
+                <div class="comp-container">
+                    <button class="btn btn-primary">Primary Button</button>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E"
+                style="width: 100%; height: 157px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- SECONDARY BUTTON -->
+                <h2 class="para-heading" id="s-btn">Secondary Button</h2>
+                <p class="doc-para">
+                    Secondary button is the button that is mainly used alonside a primary button.
+                </p>
+                <div class="comp-container">
+                    <button class="btn btn-secondary">Secondary Button</button>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%2520Button%253C%252Fbutton%253E"
+                style="width: 100%; height: 157px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- LINK BUTTON -->
+                <h2 class="para-heading" id="l-btn">Button with a link</h2>
+                <p class="doc-para">
+                    Buttons with link contains link to some external/internal pages.
+                </p>
+                <div class="comp-container">
+                    <button class="btn btn-link">Link Button</button>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%2520Button%253C%252Fbutton%253E"
+                style="width: 100%; height: 157px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- ICON BUTTON -->
+                <h2 class="para-heading" id="i-btn">Button with Icon</h2>
+                <p class="doc-para">
+                    Buttons with icons contain related icon along with text.
+                </p>
+                <div class="comp-container">
+                    <button class="btn btn-icon">Next Page<i class="fas fa-arrow-right btn-icon"></i></button>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520Next%2520Page%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-right%2520btn-icon%2522%253E%250A%2520%2520%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                style="width: 100%; height: 231px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- FLOAT BUTTON -->
+                <h2 class="para-heading" id="f-btn">Float Button</h2>
+                <p class="doc-para">
+                    
+                </p>
+                <div class="comp-container">
+                    <button class="btn btn-float">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=32px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522comp-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 231px; border:0; transform: scale(1); overflow:hidden;  margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                
+
+            </section>
+
+        </main>
+
+        <!-- on page menu -->
+        <aside class="menu-page">
+            
+            <ul class="doc-list mp-list">
+                <h5 class="mp-heading">On this page</h5>
+                <li class="mp-item"><a class="mp-link" href="#p-btn ">Primary Button  </a> </li>
+                <li class="mp-item"><a class="mp-link" href="#s-btn ">Secondary Button  </a> </li>
+                <li class="mp-item"><a class="mp-link" href="#l-btn "> Button with link </a> </li>
+                <li class="mp-item"><a class="mp-link" href="#i-btn "> Button with Icon  </a> </li>
+                <li class="mp-item"><a class="mp-link" href="#f-btn ">Float Button  </a> </li>
+                
+            </ul>
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
