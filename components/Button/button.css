@@ -1,0 +1,42 @@
+@import "/docs.css";
+
+.btn{
+    font-size:1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    margin: 0.6rem;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.btn-secondary{
+    background-color: var(--white-color);
+    color: #080808; 
+    border-radius: 5px;
+}
+
+.btn-link{
+    border-radius: 50px;
+}
+
+.icon-inline{
+    padding-left: 5px;
+}
+
+.btn-float{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 5px lightgrey;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-icon{
+    margin-left: 0.5rem;
+}
+

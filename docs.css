@@ -8,17 +8,13 @@
 .main{
     position: relative;
     margin-left: 20rem;
-    margin-right: 20rem;
-    
+    margin-right: 20rem;    
 }
-
 
 .doc-container{
     margin-top: 12vh;
     color: var(--black-color);
-    
     display: flex;
-    
     gap: 2rem;
 }
 
@@ -54,14 +50,12 @@
     left:1rem;
     padding-right: 4rem;
     border-right: 2px solid var(--primary-color);
-    
 }
 
 .menu-page{
     position: fixed;
     right:1rem;
     padding-right: 3rem;
-    
 }
 
 .mp-list{
@@ -88,5 +82,9 @@
     margin:1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.col-container{
+    flex-direction: column;
 }
 

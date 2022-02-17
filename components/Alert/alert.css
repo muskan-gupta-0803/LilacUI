@@ -1,0 +1,35 @@
+@import "/styles.css";
+@import "/docs.css";
+
+.alert-box{
+    width:90%;
+    padding:1rem;
+    margin:1rem;
+    border-radius:5px;
+    font-size: 1rem;
+}
+
+.alert-success{
+    background-color: #90ee90;
+    color: #006400;
+}
+
+.alert-secondary{
+    background-color: #E2E3E5;
+    color: #2f4f4f;
+}
+
+.alert-primary{
+    background-color: #CCE5FF;
+    color: #0000ff;
+}
+
+.alert-danger{
+    background-color: #ffa3a3;
+    color: #ff0000;
+}
+
+.alert-warning{
+    background-color: #ffd9cb;
+    color:#ff4500;
+}
