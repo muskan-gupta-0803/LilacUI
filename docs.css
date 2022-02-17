@@ -75,6 +75,8 @@
     margin-bottom: 1rem;
 }
 
+/* component container */
+
 .comp-container{
     border: 2px solid var(--primary-color);
     display: flex;
@@ -88,3 +90,6 @@
     flex-direction: column;
 }
 
+.container-bg{
+    background-color: rgba(200, 178, 200, 0.3);
+}
