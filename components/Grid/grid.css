@@ -1,0 +1,26 @@
+@import "/docs.css";
+
+
+
+.two-item-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+    gap:20px;
+    column-gap: 20px;
+}
+
+.ratio-30-70{
+    grid-template-columns: 1fr 2fr;
+}
+
+.ratio-70-30{
+    grid-template-columns: 2fr 1fr;
+}
+
+.three-item-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
+    gap:20px;
+}
