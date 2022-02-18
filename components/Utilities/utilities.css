@@ -1,0 +1,102 @@
+@import "/docs.css";
+
+.lilac-h1, .fs-xxl{
+    font-size:3rem;
+    line-height:4rem;
+}
+
+.lilac-h2, .fs-xl{
+    font-size:2rem;
+    line-height:2.5rem;
+}
+
+.lilac-h3, .fs-lg{
+    font-size:1.5rem;
+    line-height:2rem;
+}
+
+.lilac-h4, .fs-md{
+    font-size:1rem;
+    line-height:1.5rem;
+}
+
+.lilac-h5,.fs-sm{
+    font-size:0.5rem;
+    line-height:1rem;
+}
+
+.fw-light{
+    font-weight: 300;
+}
+
+.fw-regular{
+    font-weight: 400;
+}
+
+.fw-semibold{
+    font-weight: 600;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.fw-black{
+    font-weight: 900;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.text-gray{
+    color:gray;
+}
+
+.text-darkgray{
+    color: rgb(78, 78, 78);
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-striked{
+    text-decoration: line-through;
+}
+
+.text-overline{
+    text-decoration: overline;
+}
+
+.br-div{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    border:solid 1px black;
+    margin: 1rem;
+}
+
+.br-sm{
+    border-radius:5px;
+}
+
+.br-md{
+    border-radius: 10px;
+}
+
+.br-lg{
+    border-radius:15px;
+}
+
+.br-max{
+    border-radius: 999px;
+}

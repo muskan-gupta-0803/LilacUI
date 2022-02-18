@@ -1,5 +1,7 @@
 @import "styles.css";
 
+@import "./components/Utilities/utilities.css";
+
 /* .main-div{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -86,8 +88,18 @@
     padding-bottom: 1rem;
 }
 
+.ta-container{
+    border: 2px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .col-container{
     flex-direction: column;
+    align-items: center;
 }
 
 .container-bg{
