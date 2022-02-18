@@ -14,7 +14,6 @@
 
 .card-horizontal{
     display: flex;
-    flex-direction: row;
     max-width:fit-content;
     border-radius: 10px;
     position:relative;
