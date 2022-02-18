@@ -1,14 +1,5 @@
-/* @import "../List/list.css"; */
+@import "../List/list.css";
 @import "/docs.css";
-
-/* list styles comment out later */
-.list-style-none{
-    list-style-type: none;
-}
-
-.list-inline{
-    display:inline;
-}
 
 /* navigation styles */
 .lilac-navbar{
@@ -35,7 +26,3 @@
     text-decoration: none;
     color:white;
 }
-
-
-
-
