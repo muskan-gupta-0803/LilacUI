@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="list.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo -->
+            <a class="logo" href="index.html">
+                <span class="nav-logo">
+                    LILAC UI
+                </span>
+            </a>
+    
+            <!-- nav links -->
+            <div class="nav-links">
+                <a href="docs.html" class="nav-items"><span>Docs</span></a>
+                <a href="https://github.com/muskan-gupta-0803/LilacUI" class="nav-items"><span>Github</span></a>
+                <a href="#" class="nav-items"><span>
+                    <i class="fas fa-sun"></i>
+                </span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="doc-container">
+    <!-- every page same menu -->
+        <aside class="menu-all">
+            <ul class="doc-list ma-list">
+                <h5 class="ma-heading">Get Started</h5>
+                <li class="ma-item"><a class="ma-link" href="../../docs.html">Introduction </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Utilities/utilities.html">Utilities </a></li>
+                <h5 class="ma-heading">Components</h5>
+                <li class="ma-item"><a class="ma-link" href="../Alert/alert.html">Alert </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Avatar/avatar.html">Avatar </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Badge/badge.html">Badge </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Button/button.html">Button </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Card/card.html">Card </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Image/image.html">Image </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Input/input.html">Input </a></li>
+                <li class="ma-item"><a class="ma-link" href="list.html">List </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Navigation/navigation.html">Navigation </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Modal/modal.html">Modal </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Rating/rating.html">Rating </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Toast/toast.html">Toast </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Grid/grid.html">Simplified Grid </a></li>
+            </ul>
+        </aside>
+
+
+    <!-- main body area -->
+        <main class="main">
+            <section class="intro">
+                <h1 class="para-heading" >LIST</h1>
+                <p class="doc-para">
+                    List component are used to group different items together.
+                </p>
+                             
+                <!-- UNORDERED LIST -->
+                <h2 class="para-heading" id="ul-list">Unordered List</h2>
+                <p class="doc-para">
+                    Unordered lists do not have any particular order.They appear in the list as you place them in code.<br>
+                    The last list example shows, list item with no bullet.
+                </p>
+                <div class="comp-container col-container">
+                    <!-- unordered lists -->
+                    <ul class="ul-bullet">
+                        <li>Unordered List item</li>
+                    </ul>
+                    <ul class="ul-circle">
+                        <li>Unordered List item</li>
+                    </ul>
+                    <ul class="ul-square">
+                        <li>Unordered List item</li>
+                    </ul>
+                    <ul class="list-style-none">
+                        <li>List item</li>
+                    </ul>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520unordered%2520lists%2520--%253E%250A%253Cul%2520class%253D%2522ul-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%253EUnordered%2520List%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522ul-circle%2522%253E%250A%2520%2520%2520%2520%253Cli%253EUnordered%2520List%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522ul-square%2522%253E%250A%2520%2520%2520%2520%253Cli%253EUnordered%2520List%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%2520%2520%253Cli%253EList%2520item%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 100%; height: 464px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-left: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                
+
+                <!-- ORDERED LIST -->
+                <h2 class="para-heading" id="ol-list">Ordered List</h2>
+                <p class="doc-para">
+                    Ordered List have a particular order in which they appear.
+                </p>
+                <div class="comp-container col-container">
+                    <!-- ordered list -->
+                    <ol class="ol-default">
+                        <li>Ordered List Item</li>
+                    </ol>
+                    <ol class="ol-alpha-upper">
+                        <li>Ordered List Item</li>
+                    </ol>
+                    <ol class="ol-alpha-lower">
+                        <li>Ordered List Item</li>
+                    </ol>
+                    <ol class="ol-roman-upper">
+                        <li>Ordered List Item</li>
+                    </ol>
+                    <ol class="ol-roman-lower">
+                        <li>Ordered List Item</li>
+                    </ol>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520ordered%2520list%2520--%253E%250A%253Col%2520class%253D%2522ol-default%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522ol-alpha-upper%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522ol-alpha-lower%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522ol-roman-upper%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253Col%2520class%253D%2522ol-roman-lower%2522%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E"
+                style="width: 100%; height: 538px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-left: 1rem;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                
+
+                <!-- REVERSED LIST -->
+                <h2 class="para-heading" id="rv-list">Reversed List</h2>
+                <p class="doc-para">
+                    For a list to be reversed in order, just add reversed attribute in the ul or ol tag.
+                </p>
+                <div class="comp-container col-container">
+                    <ol class="ol-default" reversed>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                    </ol>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520reversed%2520list%2520--%253E%250A%253C%21--%2520Change%2520classname%2520for%2520other%2520%250Alist%2520types--%253E%250A%250A%253Col%2520class%253D%2522ol-default%2522%2520reversed%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EOrdered%2520List%2520Item%253C%252Fli%253E%250A%253C%252Fol%253E"
+                style="width: 100%; height: 371px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-left: 1rem;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- INLINE LIST -->
+                <h2 class="para-heading" id="il-list">Inline List</h2>
+                <p class="doc-para">
+                    In an inline list, the list items are arranged in a row rather than in a column format.
+                </p>
+                <div class="comp-container col-container">
+                    <ul class="list-style-none">
+                        <li class="list-inline">List item</li>
+                        <li class="list-inline">List Item</li>
+                        <li class="list-inline">List Item</li>
+                        <li class="list-inline">List Item</li>
+                    </ul>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253EList%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253EList%2520Item%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 100%; height: 278px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-left: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- STACKED LIST -->
+                <h2 class="para-heading" id="st-list">Stacked List</h2>
+                <p class="doc-para">
+                    In an stacked list, the list items are stacked one above the other.
+                </p>
+                <div class="comp-container col-container">
+                    <ul class="stacked-list-container list-style-none">
+                        <li class="sl-item br-sm">
+                            <h4 class="lilac-h4">Sale Notification</h4>
+                            <p class="text-md">Hurry Up! Few items left.</p>
+                            <small>5 minutes ago</small>
+                        </li>
+                        <li class="sl-item br-sm">
+                            <h4 class="lilac-h4">Sale Notification</h4>
+                            <p class="text-md">Hurry Up! Few items left.</p>
+                            <small>5 minutes ago</small>
+                        </li>
+                        <li class="sl-item br-sm">
+                            <h4 class="lilac-h4">Sale Notification</h4>
+                            <p class="text-md">Hurry Up! Few items left.</p>
+                            <small>5 minutes ago</small>
+                        </li>
+                    </ul>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list-container%2520list-style-none%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522sl-item%2520br-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522lilac-h4%2522%253ESale%2520Notification%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253EHurry%2520Up%21%2520Few%2520items%2520left.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E5%2520minutes%2520ago%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522sl-item%2520br-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522lilac-h4%2522%253ESale%2520Notification%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253EHurry%2520Up%21%2520Few%2520items%2520left.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E5%2520minutes%2520ago%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522sl-item%2520br-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522lilac-h4%2522%253ESale%2520Notification%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253EHurry%2520Up%21%2520Few%2520items%2520left.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E5%2520minutes%2520ago%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 100%; height: 482px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-left: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+            </section>
+        </main>
+
+        <!-- on page menu -->
+        <aside class="menu-page">            
+            <ul class="doc-list mp-list">
+                <h5 class="mp-heading">On this page</h5>
+                <li class="mp-item"><a class="mp-link" href="#ul-list">Unordered List</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#ol-list">Ordered List</a> </li> 
+                <li class="mp-item"><a class="mp-link" href="#rv-list">Reversed List</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#il-list">Inline List</a> </li>
+                <li class="mp-item"><a class="mp-link" href="#st-list">Stacked List</a> </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <!-- To be added -->
+    </footer>
+</body>
+</html>

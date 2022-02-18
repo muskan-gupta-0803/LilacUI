@@ -1,0 +1,51 @@
+@import "/docs.css";
+
+.ul-bullet{
+    list-style-type: disc;
+}
+
+.ul-circle{
+    list-style-type: circle;
+}
+
+.ul-square{
+    list-style-type: square;
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.ol-default{
+    list-style-type: decimal;
+}
+
+.ol-alpha-lower{
+    list-style-type: lower-alpha;
+}
+
+.ol-alpha-upper{
+    list-style-type: upper-alpha;
+}
+
+.ol-roman-lower{
+    list-style-type:lower-roman ;
+}
+
+.ol-roman-upper{
+    list-style-type: upper-roman;
+}
+
+.list-inline{
+    display:inline;
+}
+
+.sl-item{
+    border:1px solid gray ;
+    padding:0.5rem;
+    margin-left: -2.5rem;
+}
+
+.stacked-list-container{
+    margin: 0.5rem;
+}
