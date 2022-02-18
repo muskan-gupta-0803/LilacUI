@@ -9,7 +9,7 @@
     margin-left:-15vw;
     width:30vw;
     max-width: 100%;
-    border: 2px solid #808080;
+    border: 2px solid var(--grey-color);
     padding: 1rem;
     background-color: var(--white-color);
 }
@@ -26,5 +26,5 @@
 
 .close-icon{
     font-size: 1.5rem;
-    color: grey;
+    color: var(--grey-color);
 }
