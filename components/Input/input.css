@@ -1,0 +1,25 @@
+@import "/docs.css";
+
+.input-text{
+    padding: 0.3rem;
+    margin:0.5rem;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+.form-validate span{
+    border:none;
+}
+.form-label{
+    font-size: 1.1rem;
+}
+
+.form-success{
+    color:var(--success-green);
+    border:1px solid var(--success-green);
+}
+
+.form-error{
+    color: var(--error-red);
+    border: 1px solid var(--error-red);
+}
