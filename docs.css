@@ -84,10 +84,15 @@
     margin:1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: relative;
 }
 
 .col-container{
     flex-direction: column;
+}
+
+.nav-comp-container{
+    height:15rem;
 }
 
 .container-bg{
