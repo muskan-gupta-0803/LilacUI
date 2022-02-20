@@ -1,0 +1,54 @@
+@import "/docs.css";
+@import "../Utilities/utilities.css";
+@import "../Button/button.css";
+
+
+.toast{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:60%;
+    border:1px solid #808080;
+    border-radius: 5px;
+    background-color: var(--white-color);
+    font-size: 1rem;
+
+}
+
+.toast-pos{
+    display: flex;
+    align-items: flex-end;
+    width:100%;
+    height: fit-content;
+    position: absolute;
+    bottom: 20px;
+}
+
+.toast-left{
+    justify-content: start;
+}
+
+.toast-center{
+    justify-content: center;
+}
+
+.toast-right{
+    justify-content: end;
+}
+
+.toast-btn{
+    display: flex;
+    flex-shrink: 6;
+    width: 5rem;
+    min-width: 20x;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.retry-btn{
+    padding-top: 0.2rem;
+}
+
+.toast p{
+    flex-shrink: 2;
+}
