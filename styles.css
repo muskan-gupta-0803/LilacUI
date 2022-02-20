@@ -103,7 +103,7 @@
     height: 92vh;
 } */
 
-.main-container{
+.hp-container{
     margin-top: 8vh;
     color: var(--black-color);
     display: grid;
