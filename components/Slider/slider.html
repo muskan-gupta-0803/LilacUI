@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo -->
+            <a class="logo" href="/index.html">
+                <span class="nav-logo">
+                    LILAC UI
+                </span>
+            </a>
+    
+            <!-- nav links -->
+            <div class="nav-links">
+                <a href="/docs.html" class="nav-items"><span>Docs</span></a>
+                <a href="https://github.com/muskan-gupta-0803/LilacUI" class="nav-items"><span>Github</span></a>
+                <a href="#" class="nav-items"><span>
+                    <i class="fas fa-sun"></i>
+                </span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="doc-container">
+    <!-- every page same menu -->
+        <aside class="menu-all">
+            <ul class="doc-list ma-list">
+                <h5 class="ma-heading">Get Started</h5>
+                <li class="ma-item"><a class="ma-link" href="/docs.html">Introduction </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Utilities/utilities.html">Utilities </a></li>
+                <h5 class="ma-heading">Components</h5>
+                <li class="ma-item"><a class="ma-link" href="../Alert/alert.html">Alert </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Avatar/avatar.html">Avatar </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Badge/badge.html">Badge </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Button/button.html">Button </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Card/card.html">Card </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Image/image.html">Image </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Input/input.html">Input </a></li>
+                <li class="ma-item"><a class="ma-link" href="../List/list.html">List </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Navigation/navigation.html">Navigation </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Modal/modal.html">Modal </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Rating/rating.html">Rating </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Toast/toast.html">Toast </a></li>
+                <li class="ma-item"><a class="ma-link" href="slider.html">Slider </a></li>
+                <li class="ma-item"><a class="ma-link" href="../Grid/grid.html">Simplified Grid </a></li>
+            </ul>
+        </aside>
+
+    <!-- main body area -->
+        <main class="main">
+            <section class="intro">
+                <h1 class="para-heading" >SLIDER</h1>
+                <p class="doc-para">
+                    Slider components are input type elements that are used to take in a range of values.   
+                </p>                
+
+                <!-- SIMPLE SLIDER -->
+                <h2 class="para-heading" id="s-slider">Simple Slider</h2>
+                <p class="doc-para">
+                    Given below is a simple slider, with basic styling , that can be used in any place.
+                </p>
+                <div class="comp-container">
+                    <div class="slider-container">
+                        <span class="fw-semibold">0</span>
+                        <input type="range" name="range" class="simple-slider" min="0" max="100" step="1">
+                        <span class="fw-semibold">100</span>
+                    </div>
+                    
+                </div> 
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fw-semibold%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520class%253D%2522simple-slider%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520step%253D%25221%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fw-semibold%2522%253E100%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 243px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <!-- SIMPLE SLIDER -->
+                <h2 class="para-heading" id="s-slider">Styled Slider</h2>
+                <p class="doc-para">
+                    Given below is a styled slider, with styling done to enhance the way it appears.
+                </p>
+                <div class="comp-container">
+                    <div class="slider-container">
+                        <span class="fw-semibold">0</span>
+                        <input type="range" name="range" class="styled-slider" min="0" max="100" step="1">
+                        <span class="fw-semibold">100</span>
+                    </div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C178%2C200%2C1%29&t=seti&wt=none&l=htmlmixed&width=746.25&ds=true&dsyoff=15px&dsblur=68px&wc=true&wa=true&pv=46px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fw-semibold%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520class%253D%2522styled-slider%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520step%253D%25221%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fw-semibold%2522%253E100%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 243px; border:0; transform: scale(1); overflow:hidden; margin-bottom: 3rem; margin-top: 1rem;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </section>
+        </main>
+
+        <!-- on page menu -->
+        <aside class="menu-page">            
+            <ul class="doc-list mp-list">
+                <h5 class="mp-heading">On this page</h5>
+                <li class="mp-item"><a class="mp-link" href="#s-slider">Simple Slider</a> </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <!-- To be added -->
+    </footer>
+
+</body>
+</html>

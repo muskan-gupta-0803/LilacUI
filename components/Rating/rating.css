@@ -1,0 +1,46 @@
+@import "/docs.css";
+@import "../Utilities/utilities.css";
+
+.rating-container {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.rating-container input {
+	display: none;
+}
+
+.rating-container > label {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    transition: 0.2s ease;
+    color:orange;
+}
+
+.rating-container label:hover{
+    color: yellow;
+    transition: 0.2s ease;
+}
+
+.rating-container label:active::before{
+    transform: scale(1);
+}
+
+.rating-container label::before{
+    content: '\2606';
+    position: absolute;
+    top:0;
+}
+
+.rating-container input:checked ~ label:before{
+    content: '\2605';
+}
+

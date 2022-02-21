@@ -1,0 +1,30 @@
+@import "/docs.css";
+@import "../Utilities/utilities.css";
+
+.slider-container{
+    padding: 4px 6px;
+}
+
+.simple-slider{
+    margin: 0 2px;
+}
+
+.styled-slider{
+    appearance: none;
+}
+
+.styled-slider::-webkit-slider-runnable-track{
+    background-color: var(--primary-color);
+    height:0.4rem;
+}
+
+.styled-slider::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:0.5rem;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    margin-top: -5px;
+    border-radius: 2px;
+
+}
