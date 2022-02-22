@@ -84,8 +84,16 @@ body{
     color:var(--black-color);
 }
 
+body a{
+    color: var(--black-color);
+}
+
 body.dark-theme{
     background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+body.dark-theme a{
     color: var(--white-color);
 }
 
