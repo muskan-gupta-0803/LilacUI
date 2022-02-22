@@ -1,4 +1,5 @@
 @import "./components/List/list.css";
+@import "/css/responsive.css";
 
 /* button styles */
 .lilac-home-btn{
@@ -77,6 +78,7 @@
     --black-color:#2b2b2b;
     --success-green:#008000;
     --error-red:#ff0000;
+    --grey-color:#808080;
 }
 
 body{
@@ -91,6 +93,10 @@ body a{
 body.dark-theme{
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+body.dark-theme .doc-container{
+    --accent-color:#ce93d8;
 }
 
 body.dark-theme a{
@@ -120,8 +126,6 @@ body.dark-theme a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid pink; */
-    
 }
 
 .button-link{
