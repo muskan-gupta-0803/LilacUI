@@ -9,8 +9,9 @@
     margin-left:-15vw;
     width:30vw;
     max-width: 100%;
-    border: 2px solid var(--grey-color);
+    border: 1px solid var(--grey-color);
     padding: 1rem;
+    color: var(--black-color);
     background-color: var(--white-color);
 }
 
