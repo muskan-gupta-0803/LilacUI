@@ -9,6 +9,7 @@
     border-radius: 10px;
     position:relative;
     margin: 0.5rem;
+    color: var(--black-color);
     background-color: var(--white-color);
 }
 
@@ -18,6 +19,7 @@
     border-radius: 10px;
     position:relative;
     margin: 0.5rem;
+    color: var(--black-color);
     background-color: var(--white-color);
 }
 

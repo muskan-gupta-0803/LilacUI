@@ -1,0 +1,60 @@
+/* RESPONSIVE STYLING */
+
+@media only screen and (max-width:480px) {
+
+    aside.menu-page{
+        display:none;
+    }
+
+    .main .doc-para{
+        font-size: 1.1rem;
+    }
+
+    .ma-item{
+        font-size: 1.1rem;
+    }
+
+    aside.menu-all{
+        padding-right: 1rem;
+    }
+
+    main.main{
+        margin-left:12rem ;
+        margin-right: 2rem;
+    }
+
+    .doc-list.ma-list{
+        padding-left: 1rem;
+    }
+    
+}
+
+
+@media only screen and (max-width:768px) and (min-width:480px) {
+
+    aside.menu-page{
+       display: none;
+    }
+
+    aside.menu-all{
+        padding-right: 1rem;
+    }
+
+    .main .doc-para{
+        font-size: 1.1rem;
+    }
+
+    .ma-item{
+        font-size: 1.1rem;
+    }
+
+    main.main{
+        margin-left:13rem ;
+        margin-right: 3rem;
+    }
+
+    .doc-list.ma-list{
+        padding-left: 1rem;
+    }
+    
+}

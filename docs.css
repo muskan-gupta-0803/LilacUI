@@ -1,5 +1,4 @@
 @import "styles.css";
-
 @import "./components/Utilities/utilities.css";
 
 /* .main-div{
@@ -15,14 +14,13 @@
 
 .doc-container{
     margin-top: 12vh;
-    color: var(--black-color);
     display: flex;
     gap: 2rem;
 }
 
 .doc-list{
     list-style-type: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .mp-heading,.mp-list{
@@ -31,7 +29,6 @@
 
 .ma-link,.mp-link{
     text-decoration: none;
-    color: var(--black-color);
 }
 
 .ma-link:hover, .mp-link:hover{
@@ -57,7 +54,7 @@
 .menu-page{
     position: fixed;
     right:1rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
 }
 
 .mp-list{
